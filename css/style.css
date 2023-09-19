@@ -1,0 +1,277 @@
+body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* bewerk formulier login*/
+
+.form-login {
+    max-width: 1000px;
+    padding: 19px 29px 29px;
+    background-color: #fff;
+    border-top: 2px solid #ababab;
+    border-bottom: 2px solid #ababab;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .08);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .08);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .08);
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #990000;
+    font-weight: lighter;
+}
+
+.form-login .form-login-hoofdtekst {
+    color: #6c757d;
+}
+
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}
+
+.login-form,
+.body-container {
+    margin-top: 70px;
+}
+
+#btn-submit {
+    height: 45px;
+}
+
+
+/* navbar */
+
+.nav-kleur {
+    background-color: #113042;
+    color: white;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-kleur .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* begin home pagina*/
+
+
+/* home pagina colom */
+
+.col-sm-9-kleur {
+    font-size: 20px;
+    height: 90%;
+    color: black;
+    text-align: justify;
+    overflow-y: auto;
+    height: 640px;
+    overflow-y: hidden;
+}
+
+
+/* foto op home pagina mijn dagboek foto*/
+
+.dagboek {
+    height: 200px;
+    background-image: url(image/dagboek.jpg);
+    background-repeat: no-repeat;
+    margin-left: 55px;
+}
+
+
+/* home pagina af*/
+
+
+/* colom en nav voor bewerk/creer/delete dagboek pagina*/
+
+.col-sm-3 {
+    background-color: #113042;
+    color: white;
+    height: auto;
+}
+
+.col-sm-3-1 {
+    height: 690px;
+}
+
+.active1 {
+    color: #fff;
+    background-color: #b83dba;
+    border-color: #b83dba;
+}
+
+textarea {
+    width: 100%;
+}
+
+.welkom {
+    text-align: center;
+}
+
+
+/* Float four columns side by side */
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+
+/* Remove extra left and right margins, due to padding */
+
+.row1 .row2 {
+    margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Style the counter cards */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #113042;
+    color: white;
+}
+
+.minifoto {
+    margin: 0px auto;
+}
+
+.containerTab {
+    padding: 20px;
+    color: white;
+}
+
+
+/* Clear floats after the columns */
+
+.row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Closable button inside the container tab */
+
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.column2 {
+    margin: 0px auto;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-kleur {
+    color: #fff;
+    background-color: #b83dba;
+    border-color: #b83dba;
+}
+
+.btn-kleur:hover {
+    color: #fff;
+    background-color: #b83dba;
+    border-color: #b83dba;
+}
+
+.btn-kleur:focus,
+.btn-kleur.focus {
+    color: #fff;
+    background-color: #b83dba;
+    border-color: #b83dba;
+    box-shadow: 0 0 0 0.2rem rgba(184, 61, 186, 1);
+}
+
+.btn-kleur.disabled,
+.btn-kleur:disabled {
+    color: #fff;
+    background-color: #b83dba;
+    border-color: #b83dba;
+}
+
+.btn-kleur:not(:disabled):not(.disabled):active,
+.btn-kleur:not(:disabled):not(.disabled).active,
+.show>.btn-kleur.dropdown-toggle {
+    color: #fff;
+    background-color: #b83dba;
+    border-color: #b83dba;
+}
+
+.btn-kleur:not(:disabled):not(.disabled):active:focus,
+.btn-kleur:not(:disabled):not(.disabled).active:focus,
+.show>.btn-kleur.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(184, 61, 186, 1);
+}
+
+
+/* Responsive  */
+
+@media screen and (max-width: 800px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .column2 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .column2 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .col-sm-3-1 {
+        height: 230px;
+    }
+}
